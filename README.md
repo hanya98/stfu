@@ -1,6 +1,8 @@
-# Planly
+# SStack
 
-A Next.js App Router application for a focused DSA preparation workspace. Onboarding preferences, the imported roadmap catalogue, and problem progress are stored in versioned browser `localStorage` records. This is local demo mode: no authentication, Supabase, calendar connection, or external data integration is configured.
+**Stack your prep. Ship your progress.** A Next.js App Router application for a focused DSA preparation workspace. Brand copy and metadata are centralized in `src/lib/brand.ts`; the provisional naming comparison is in [BRAND_DIRECTION.md](BRAND_DIRECTION.md).
+
+Onboarding preferences, the imported roadmap catalogue, and problem progress are stored in versioned browser `localStorage` records. This is local demo mode: no authentication, Supabase, calendar connection, or external data integration is configured.
 
 The roadmap was imported from the user-provided plain-text sheet at `src/data/source/striver-sheet.txt`. The text contains 104 section/count headings and 495 ordered problem entries, including 480 Basic/Core/Pro tags and 15 contest records. It contains no problem URLs or problem-level/topic-level time estimates. The 267/495 aggregate in the source counters is retained as sheet metadata; individual problem completion cannot be reconstructed from the text and starts as unsolved personal progress. The import is not independently verified as the complete official A2Z catalogue.
 
@@ -35,7 +37,7 @@ Copy `.env.example` to `.env.local` only when adding a future integration. The d
 
 ## Production deployment
 
-Planly uses Next.js App Router and runs on the Node.js runtime. Vercel is the recommended host because it detects Next.js builds and deploys directly from a connected Git repository. The build uses Next.js's supported Webpack builder for consistent production builds. Vercel's default Next.js output configuration is correct; no custom output directory or `vercel.json` is needed.
+SStack uses Next.js App Router and runs on the Node.js runtime. Vercel is the recommended host because it detects Next.js builds and deploys directly from a connected Git repository. The build uses Next.js's supported Webpack builder for consistent production builds. Vercel's default Next.js output configuration is correct; no custom output directory or `vercel.json` is needed.
 
 There are currently **no production environment variables** and no external services to configure. The included `.env.example` is informational only. Do not add credentials for integrations that are not implemented.
 
@@ -47,7 +49,7 @@ Important data limitation: onboarding answers, imported catalogue changes, probl
 
    ```powershell
    git add .
-   git commit -m "Prepare Planly for deployment"
+   git commit -m "Prepare SStack for deployment"
    git branch -M main
    ```
 

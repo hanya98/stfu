@@ -1,6 +1,36 @@
 import Link from "next/link";
-import { ArrowRight, Check, Clock3, Layers3, Target } from "lucide-react";
+import { ArrowDownRight, ArrowRight, BookOpenCheck, CalendarClock, ChartNoAxesCombined, Check, CirclePlay, Clock3, Layers3, RotateCcw, Sparkles } from "lucide-react";
+import { BrandLockup } from "@/components/brand-mark";
+import { brand } from "@/lib/brand";
+
+const features = [
+  { icon: Layers3, title: "A roadmap with a next step", text: "Move through topics in sequence and keep your progress where you left it." },
+  { icon: CalendarClock, title: "A routine that fits", text: "Shape practice around your available days and the time you can give it." },
+  { icon: RotateCcw, title: "Revision with context", text: "Bring attempted problems back into view when they need another pass." },
+  { icon: ChartNoAxesCombined, title: "Progress you can trust", text: "See your recorded work clearly, without invented activity or inflated estimates." },
+];
 
 export default function Home() {
-  return <div style={{ maxWidth: 930, margin: "5vh auto", padding: "30px 12px" }}><div className="eyebrow" style={{ display: "flex", gap: 8, alignItems: "center" }}><span style={{ width: 7, height: 7, borderRadius: 99, background: "var(--green)" }}/> A calmer way to prepare</div><h1 style={{ fontSize: "clamp(42px,8vw,76px)", lineHeight: 1.02, letterSpacing: "-.065em", maxWidth: 800, margin: "24px 0 20px" }}>Make your next<br/><span style={{ color: "var(--green)" }}>move a little clearer.</span></h1><p className="muted" style={{ fontSize: 16, lineHeight: 1.75, maxWidth: 560 }}>A focused workspace for your DSA journey. Build a steady routine, know what comes next, and keep your interview prep moving.</p><div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 30 }}><Link href="/dashboard" style={{ background: "var(--green)", color: "#12170e", padding: "13px 18px", fontSize: 13, fontWeight: 700, borderRadius: 9, display: "inline-flex", alignItems: "center", gap: 10 }}>Explore the demo <ArrowRight size={16}/></Link><Link href="/onboarding" style={{ border: "1px solid #353d37", padding: "13px 18px", fontSize: 13, borderRadius: 9 }}>Set up your plan</Link></div><div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(210px,1fr))", gap: 12, marginTop: 76 }}>{[{ icon: Target, title: "A goal that fits", text: "Turn a big target into a plan that feels doable." }, { icon: Layers3, title: "A clear roadmap", text: "Keep topics, practice, and revision in one place." }, { icon: Clock3, title: "Steady momentum", text: "Build a routine around the time you actually have." }].map(({ icon: Icon,title,text }) => <div className="panel" key={title} style={{ padding: 19 }}><Icon size={18} color="var(--green)"/><div style={{ fontSize: 14, fontWeight: 600, margin: "17px 0 7px" }}>{title}</div><div className="muted" style={{ fontSize: 12, lineHeight: 1.6 }}>{text}</div></div>)}</div><div className="muted" style={{ fontSize: 11, marginTop: 28, display: "flex", gap: 7, alignItems: "center" }}><Check size={14} color="var(--green)"/> Local demo experience · No account or integrations configured</div></div>;
+  return <div className="landing-page">
+    <nav className="landing-nav" aria-label="Main navigation"><Link href="/" aria-label={`${brand.name} home`}><BrandLockup/></Link><div><Link href="/roadmap">Explore roadmap</Link><Link href="/dashboard">Open workspace <ArrowRight size={14}/></Link></div></nav>
+    <section className="landing-hero">
+      <div className="landing-copy"><div className="landing-kicker"><span className="status-dot"/> A focused workspace for interview preparation</div>
+        <h1>Stack your prep.<br/><span>Make progress visible.</span></h1>
+        <p>{brand.description} Organise the roadmap, plan a steady study rhythm, and keep revision moving—one clear next step at a time.</p>
+        <div className="landing-actions"><Link className="button-primary landing-primary" href="/onboarding">Build your study plan <ArrowRight size={16}/></Link><Link className="landing-secondary" href="/dashboard"><CirclePlay size={16}/> Explore the demo</Link></div>
+        <div className="landing-note"><Check size={14}/> Local demo mode · your activity stays in this browser</div>
+      </div>
+      <div className="landing-preview-wrap" aria-label="Illustrative preview of a study plan">
+        <div className="landing-orbit landing-orbit-one"/><div className="landing-orbit landing-orbit-two"/>
+        <section className="landing-preview panel"><div className="preview-top"><span><BookOpenCheck size={15}/> TODAY’S SESSION</span><span className="preview-date">EXAMPLE</span></div>
+          <div className="preview-title">Build momentum, one topic at a time.</div><div className="preview-subtitle">A sample of how your personal plan could be organised.</div>
+          <div className="preview-task"><span className="preview-task-icon"><Layers3 size={16}/></span><span><strong>Roadmap practice</strong><small>Pick up from your next unsolved topic</small></span><ArrowRight size={15}/></div>
+          <div className="preview-task"><span className="preview-task-icon muted-icon"><RotateCcw size={16}/></span><span><strong>Review a previous attempt</strong><small>Keep revision alongside new practice</small></span><Clock3 size={15}/></div>
+          <div className="preview-footer"><span><Sparkles size={14}/> Your pace, your plan</span><span><ArrowDownRight size={14}/> Start small</span></div>
+        </section><span className="preview-caption">A calm place to keep your next step in focus</span>
+      </div>
+    </section>
+    <section className="landing-features"><div className="landing-section-heading"><span className="eyebrow">PREP, WITH A LITTLE MORE STRUCTURE</span><h2>Everything has a place.<br/><span>Every session has a purpose.</span></h2></div><div className="landing-feature-grid">{features.map(({ icon: Icon, title, text }, index) => <article className="landing-feature panel" key={title}><div className="landing-feature-number">0{index + 1}</div><Icon size={19} aria-hidden="true"/><h3>{title}</h3><p>{text}</p></article>)}</div></section>
+    <footer className="landing-footer"><BrandLockup compact/><span>Built for deliberate practice. {brand.tagline}</span><Link href="/onboarding">Get started <ArrowRight size={13}/></Link></footer>
+  </div>;
 }
