@@ -1,0 +1,10 @@
+export type ProblemStatus = "not-started" | "attempted" | "solved";
+export type RoadmapDifficulty = "basic" | "core" | "pro" | null;
+export type RoadmapProblem = { id: string; sourceKey: string; name: string; sourceLabel: string; level: RoadmapDifficulty; order: number; sourceLine: number; url: string | null; estimatedMinutes: number | null };
+export type RoadmapSection = { id: string; sourceKey: string; name: string; chapter: string; order: number; sourceLine: number; reportedCompleted: number; reportedTotal: number; topics: RoadmapProblem[] };
+export type RoadmapContest = { id: string; sourceKey: string; chapter: string; sectionId: string; sectionSourceKey: string; order: number; problemCount: number | null; durationMinutes: number | null; sourceLabel: string; sourceLine: number; parseError: string | null };
+export type RoadmapCatalog = { version: 2; source: string; sourceFile: string; fieldAudit: { format: string; sectionCounters: boolean; problemTitles: boolean; difficultyTags: string[]; problemUrls: boolean; problemDurations: boolean; contestDurations: boolean }; note: string; sections: RoadmapSection[]; contests: RoadmapContest[] };
+export type AttemptRecord = { id: string; occurredAt: string; minutes: number };
+export type ProblemProgress = { status: ProblemStatus; notes: string; minutesSpent: number; estimatedMinutes: number | null; url: string; attempts: AttemptRecord[]; updatedAt: string; solvedAt?: string };
+export type RoadmapProgressRecord = { version: 1; problems: Record<string, ProblemProgress>; updatedAt: string };
+export type ProgressCounts = { total: number; solved: number; attempted: number; remaining: number; percent: number };

@@ -1,0 +1,1346 @@
+Beginner Problems
+83/83
+
+Fundamentals of Programming
+7/7
+
+Breaking The Myth
+
+Programming and What Are Computers?
+
+How to Think Like a Programmer
+
+Flowcharts and Pseudocode
+
+Flowchart Problem-Solving
+
+Dry Runs, Edge Cases and Debugging
+
+Programming Languages and Choosing a Path
+
+Language Basics
+3/3
+
+Learn C++Basic
+
+Learn JavaBasic
+
+Learn PythonBasic
+
+Logic Building (Patterns)
+2/2
+
+Easy and MediumCore
+
+HardPro
+
+Patterns
+22/22
+
+Pattern 1Basic
+
+Pattern 2Basic
+
+Pattern 3Basic
+
+Pattern 4Basic
+
+Pattern 5Basic
+
+Pattern 6Basic
+
+Pattern 7Basic
+
+Pattern 8Basic
+
+Pattern 9Basic
+
+Pattern 10Basic
+
+Pattern 11Basic
+
+Pattern 12Basic
+
+Pattern 13Basic
+
+Pattern 14Basic
+
+Pattern 15Basic
+
+Pattern 16Basic
+
+Pattern 17Basic
+
+Pattern 18Basic
+
+Pattern 19Basic
+
+Pattern 20Core
+
+Pattern 21Core
+
+Pattern 22Core
+
+Time Complexity
+1/1
+
+Theory with examplesCore
+
+Standard Libraries & Collections
+4/4
+
+STLCore
+
+Java CollectionsCore
+
+Python Libraries Part 1Basic
+
+Python Libraries Part 2Core
+
+Concept Basics
+4/4
+
+Basic MathsBasic
+
+Basic ArraysBasic
+
+Basic HashingBasic
+
+Basic StringBasic
+
+Basic Maths
+13/13
+
+Count all Digits of a NumberBasic
+
+Count number of odd digits in a numberBasic
+
+Reverse a numberCore
+
+Palindrome NumberBasic
+
+Return the Largest Digit in a NumberBasic
+
+Factorial of a given numberBasic
+
+Check if the Number is ArmstrongBasic
+
+Check for Perfect NumberBasic
+
+Check for Prime NumberCore
+
+Count of Prime Numbers till NBasic
+
+GCD of Two NumbersCore
+
+LCM of two numbersCore
+
+Divisors of a NumberCore
+
+Basic Arrays
+4/4
+
+Sum of Array ElementsBasic
+
+Count of odd numbers in ArrayBasic
+
+Check if the Array is Sorted IBasic
+
+Reverse an arrayBasic
+
+Basic Hashing
+3/3
+
+Highest Occurring Element in an ArrayCore
+
+Second Highest Occurring ElementCore
+
+Sum of Highest and Lowest FrequencyCore
+
+Basic Strings
+8/8
+
+Reverse a String IIBasic
+
+Palindrome CheckCore
+
+Largest Odd Number in a StringCore
+
+Longest Common PrefixCore
+
+Isomorphic StringsBasic
+
+Rotate StringCore
+
+Valid AnagramBasic
+
+Sort Characters by FrequencyCore
+
+Basic Recursion
+12/12
+
+Recursion TheoryCore
+
+Recursion Concepts with ParametersCore
+
+Sum of First N NumbersBasic
+
+Factorial of a Given NumberBasic
+
+Sum of Array Elements IIBasic
+
+Reverse a String IBasic
+
+Check if String is Palindrome or Not Basic
+
+Check if a Number is Prime or NotCore
+
+Reverse an array 2Core
+
+Check if the Array is Sorted IIBasic
+
+Sum of Digits in a Given NumberBasic
+
+Fibonacci NumberCore
+
+Sorting
+7/7
+
+Algorithms
+7/7
+
+Selection SortCore
+
+Bubble SortCore
+
+Insertion SortingCore
+
+Merge SortingCore
+
+Quick SortingCore
+
+Recursive Bubble SortCore
+
+Recursive Insertion SortCore
+
+Arrays
+32/32
+
+Fundamentals
+6/6
+
+Linear SearchBasic
+
+Largest Element Basic
+
+Second Largest ElementBasic
+
+Maximum Consecutive OnesBasic
+
+Left Rotate Array by OneBasic
+
+Left Rotate Array by K PlacesCore
+
+Logic Building
+5/5
+
+Move Zeros to EndBasic
+
+Remove duplicates from sorted arrayBasic
+
+Find missing numberBasic
+
+Union of two sorted arraysCore
+
+Intersection of two sorted arraysCore
+
+FAQs(Medium)
+15/15
+
+Majority Element-ICore
+
+Leaders in an ArrayCore
+
+Rearrange array elements by signCore
+
+Print the matrix in spiral mannerCore
+
+Pascal's Triangle ICore
+
+Pascal's Triangle IICore
+
+Pascal's Triangle IIICore
+
+Rotate matrix by 90 degreesCore
+
+Set Matrix ZeroesCore
+
+Two SumBasic
+
+3 SumCore
+
+4 SumPro
+
+Sort an array of 0's 1's and 2'sCore
+
+Kadane's AlgorithmCore
+
+Next PermutationCore
+
+FAQs(Hard)
+6/6
+
+Majority Element-IICore
+
+Find the repeating and missing numberCore
+
+Count InversionsPro
+
+Reverse PairsPro
+
+Maximum Product Subarray in an ArrayCore
+
+Merge two sorted arrays without extra spaceCore
+Contest
+• 3 Problems • 2 hours
+Start contest
+
+Hashing
+6/6
+
+Theory
+1/1
+
+Basic HashingBasic
+
+FAQs
+5/5
+
+Longest Consecutive Sequence in an ArrayCore
+
+Longest subarray with sum KCore
+
+Largest Subarray with Sum 0Core
+
+Count subarrays with given sumCore
+
+Count subarrays with given xor KPro
+Contest
+• 3 Problems • 2 hours
+Start contest
+
+Binary Search
+32/32
+
+Fundamentals
+3/3
+
+Search X in sorted arrayBasic
+
+Lower Bound Core
+
+Upper BoundCore
+
+Logic Building
+9/9
+
+Search insert positionBasic
+
+Floor and Ceil in Sorted ArrayCore
+
+First and last occurrenceCore
+
+Search in rotated sorted array-ICore
+
+Search in rotated sorted array-IICore
+
+Find minimum in Rotated Sorted ArrayCore
+
+Find out how many times the array is rotatedCore
+
+Single element in sorted arrayCore
+
+Count Occurrences in a Sorted ArrayCore
+
+On answers
+8/8
+
+Find square root of a numberCore
+
+Find Nth root of a numberCore
+
+Find the smallest divisorCore
+
+Koko eating bananasPro
+
+Minimum days to make M bouquetsPro
+
+Capacity to Ship Packages Within D DaysPro
+
+Kth Missing Positive NumberPro
+
+Painter's PartitionPro
+
+FAQs
+7/7
+
+Aggressive CowsPro
+
+Book Allocation ProblemPro
+
+Find peak elementCore
+
+Median of 2 sorted arraysPro
+
+Kth element of 2 sorted arraysPro
+
+Minimize Max Distance to Gas StationPro
+
+Split array - largest sumPro
+
+2D Arrays
+5/5
+
+Find row with maximum 1'sCore
+
+Search in a 2D MatrixCore
+
+Search in 2D matrix - IICore
+
+Find Peak Element - IICore
+
+Matrix MedianPro
+Contest
+• 3 Problems • 2 hours
+Start contest
+
+Strings (Basic and Medium)
+6/7
+
+Parentheses
+2/2
+
+Remove Outermost ParenthesesCore
+
+Maximum Nesting Depth of the ParenthesesCore
+
+String Conversions
+2/2
+
+Roman to IntegerBasic
+
+String to Integer (atoi)Core
+
+Substring Problems
+2/3
+
+Count Number of Substrings
+
+Longest Palindromic SubstringCore
+
+Sum of Beauty of All SubstringsCore
+
+Recursion
+4/22
+
+Implementation Problems
+3/5
+
+Pow(x,n)Core
+
+Generate ParenthesesCore
+
+Power SetCore
+
+Count Good NumbersCore
+
+Reverse a StackCore
+
+Subsequence Pattern Problems
+1/4
+
+Learn All Patterns of Subsequences (Theory)
+
+Check if there exists a subsequence with sum KCore
+
+Count all subsequences with sum KCore
+
+Generate Binary Strings Without Consecutive 1sCore
+
+FAQs (Medium)
+0/5
+
+Combination SumCore
+
+Combination Sum IICore
+
+Subsets ICore
+
+Subsets IICore
+
+Combination Sum IIIPro
+
+Hard
+0/1
+
+Letter Combinations of a Phone NumberPro
+
+FAQs (Hard)
+0/7
+
+Palindrome partitioningPro
+
+Word SearchPro
+
+N QueenPro
+
+Rat in a MazePro
+
+M Coloring ProblemPro
+
+Sudoku SolverPro
+
+Expression Add OperatorsPro
+Contest
+• 5 Problems • 2 hours
+Start contest
+
+Linked-List
+41/49
+
+Fundamentals (Single LL)
+14/14
+
+Introduction to Singly LinkedListBasic
+
+Traversal in Linked ListBasic
+
+Deletion in Linked ListCore
+
+Insertion in Linked ListCore
+
+Deletion of the head of LLCore
+
+Deletion of the tail of Linked ListCore
+
+Deletion of the Kth element of Linked ListCore
+
+Delete the element with value XCore
+
+Insertion at the head of Linked ListCore
+
+Insertion at the tail of Linked ListCore
+
+Insertion at the Kth position of Linked ListCore
+
+Insertion before the value X in Linked ListCore
+
+Find the length of the Linked ListBasic
+
+Search in Linked ListCore
+
+Fundamentals (Doubly LL)
+13/13
+
+Introduction to Doubly LLBasic
+
+Deletion in Doubly LLCore
+
+Insertion in DLLCore
+
+Convert Array to Doubly Linked ListCore
+
+Delete Tail of Doubly Linked ListCore
+
+Delete Kth Element of Doubly Linked ListCore
+
+Removing given node in Doubly Linked ListCore
+
+Insert node before head in Doubly Linked ListCore
+
+Insert node before tail in Doubly Linked ListCore
+
+Insert node before (kth node) in Doubly Linked ListCore
+
+Insert before given node in Doubly Linked ListCore
+
+Delete head of Doubly Linked ListCore
+
+Reverse a Doubly Linked ListCore
+
+Logic Building
+4/5
+
+Add two numbers in Linked ListCore
+
+Segregate odd and even nodes in Linked ListCore
+
+Sort a Linked List of 0's 1's and 2'sCore
+
+Remove Nth node from the back of the LLCore
+
+Reverse a LLCore
+
+FAQs (Medium)
+6/8
+
+Add one to a number represented by LLCore
+
+Find Middle of Linked ListBasic
+
+Delete the middle node in LLCore
+
+Check if LL is palindrome or notCore
+
+Find the intersection point of Y LLCore
+
+Detect a loop in LLCore
+
+Find the starting point in LLCore
+
+Length of loop in LLCore
+
+FAQs (Hard)
+1/6
+
+Reverse LL in group of given size KPro
+
+Rotate a LLCore
+
+Merge two Sorted Lists Basic
+
+Flattening of LLPro
+
+Sort LLCore
+
+Clone a LL with random and next pointerPro
+
+FAQS (DLL)
+3/3
+
+Delete all occurrences of a key in DLLCore
+
+Remove duplicates from sorted DLLCore
+
+Find Pairs with Given Sum in Doubly Linked ListCore
+Contest
+• 3 Problems • 2 hours
+Start contest
+
+Bit Manipulation
+13/14
+
+Theory
+1/1
+
+Introduction to Bits and TricksBasic
+
+Bit Fundamentals
+5/6
+
+Check if the i-th bit is Set or NotBasic
+
+Check if a Number is Odd or NotBasic
+
+Check if a Number is Power of 2 or NotBasic
+
+Count the Number of Set BitsBasic
+
+Set the Rightmost Unset Bit
+
+Swap Two NumbersBasic
+
+Problems
+7/7
+
+Minimum Bit Flips to Convert NumberBasic
+
+Single Number - IBasic
+
+Single Number - IICore
+
+Single Number - IIIPro
+
+Divide two numbers without multiplication and divisionCore
+
+Power Set Bit ManipulationCore
+
+XOR of numbers in a given rangeCore
+Contest
+• 3 Problems • 2 hours
+Start contest
+
+Greedy Algorithms
+10/14
+
+Easy
+4/4
+
+Assign CookiesCore
+
+Lemonade ChangeCore
+
+Fractional KnapsackCore
+
+Jump Game - ICore
+
+Scheduling and Interval Problems
+6/7
+
+Shortest Job FirstCore
+
+Job sequencing ProblemCore
+
+N meetings in one roomCore
+
+Non-overlapping IntervalsCore
+
+Insert IntervalCore
+
+Merge IntervalsCore
+
+Minimum number of platforms required for a railwayCore
+
+Hard
+0/3
+
+Valid Paranthesis CheckerPro
+
+CandyPro
+
+Jump Game IIPro
+Contest
+• 3 Problems • 2 hours
+Start contest
+
+Sliding Window / 2 Pointer
+0/13
+
+Pattern and Template
+0/1
+
+TheoryCore
+
+Constant Window
+0/1
+
+Maximum Points You Can Obtain from Cards Core
+
+Longest and Smallest Window Problems
+0/7
+
+Longest Substring Without Repeating CharactersCore
+
+Max Consecutive Ones IIICore
+
+Fruit Into BasketsCore
+
+Longest Substring With At Most K Distinct CharactersPro
+
+Longest Repeating Character ReplacementPro
+
+Minimum Window Substring Pro
+
+Minimum Window SubsequencePro
+
+Counting Subarrays / Substrings Problems
+0/4
+
+Number of Substrings Containing All Three CharactersCore
+
+Binary Subarrays With SumCore
+
+Count number of Nice subarraysPro
+
+Subarrays with K Different IntegersPro
+Contest
+• 3 Problems • 2 hours
+Start contest
+
+Stack / Queues
+29/31
+
+Implementation
+8/8
+
+Implementation using different DSCore
+
+Implement Stack using ArraysCore
+
+Implement Queue using ArraysCore
+
+Implement Stack using QueueCore
+
+Implement Queue using StackCore
+
+Implement stack using LinkedlistCore
+
+Implement queue using LinkedlistCore
+
+Balanced ParanthesisCore
+
+Prefix, Infix and Postfix Conversions
+6/6
+
+Infix to Postfix ConversionCore
+
+Infix to Prefix ConversionCore
+
+Prefix to Infix ConversionCore
+
+Prefix to Postfix ConversionCore
+
+Postfix to Infix ConversionCore
+
+Postfix to Prefix ConversionCore
+
+Monotonic Stack
+7/7
+
+Next Greater ElementCore
+
+Next Greater Element - 2Core
+
+Asteroid CollisionCore
+
+Sum of Subarray MinimumsCore
+
+Sum of Subarray RangesCore
+
+Remove K DigitsCore
+
+Next Smaller ElementCore
+
+FAQs
+8/10
+
+Implement Min StackCore
+
+Sliding Window MaximumPro
+
+Trapping RainwaterPro
+
+Largest rectangle in a histogramPro
+
+Maximum RectanglesPro
+
+Stock span problemCore
+
+Celebrity ProblemCore
+
+LRU CachePro
+
+LFU CachePro
+
+Number of Greater Elements to the RightCore
+Contest
+• 3 Problems • 2 hours
+Start contest
+
+Binary Trees
+0/32
+
+Theory/Traversals
+0/6
+
+Introduction Basic
+
+Inorder TraversalBasic
+
+Preorder TraversalBasic
+
+Postorder TraversalBasic
+
+Level Order TraversalCore
+
+Pre, Post, Inorder in one traversalCore
+
+Medium Problems
+0/7
+
+Maximum Depth in BTCore
+
+Check if two trees are identical or notCore
+
+Check for balanced binary treeCore
+
+Diameter of Binary TreeCore
+
+Maximum path sum Pro
+
+Check for symmetrical BTsCore
+
+Children Sum Property in Binary TreeCore
+
+FAQs
+0/13
+
+Zig Zag or Spiral TraversalCore
+
+Boundary TraversalCore
+
+Vertical Order TraversalPro
+
+Top View of BTCore
+
+Bottom view of BTCore
+
+Right/Left View of BTCore
+
+Print root to leaf path in BTCore
+
+LCA in BTPro
+
+Maximum Width of BTPro
+
+Print all nodes at a distance of K in BTPro
+
+Minimum time taken to burn the BT from a given NodePro
+
+Count total nodes in a complete BTCore
+
+Flatten Binary Tree to Linked ListPro
+
+Construction Problems
+0/4
+
+Requirements needed to construct a unique BTCore
+
+Construct a BT from Preorder and InorderCore
+
+Construct a BT from Postorder and InorderCore
+
+Serialize and De-serialize BTPro
+
+Traversal in Constant Space
+0/2
+
+Morris Inorder Traversal Pro
+
+Morris Preorder Traversal Pro
+Contest
+• 3 Problems • 2 hours
+Start contest
+
+Binary Search Trees
+0/15
+
+Theory and Basics
+0/4
+
+Introduction to BSTBasic
+
+Search in BSTBasic
+
+Floor and Ceil in a BSTCore
+
+Minimum and Maximum in BST
+
+Medium
+0/7
+
+Insert a given node in BSTCore
+
+Delete a node in BSTCore
+
+Kth Smallest and Largest element in BSTCore
+
+Check if a tree is a BST or notCore
+
+LCA in BSTCore
+
+Construct a BST from a preorder traversalCore
+
+Inorder successor and predecessor in BSTCore
+
+FAQs
+0/4
+
+BST iteratorCore
+
+Two sum in BSTCore
+
+Correct BST with two nodes swappedPro
+
+Largest BST in Binary TreePro
+Contest
+• 2 Problems • 2 hours
+Start contest
+
+Heaps
+0/20
+
+Theory and Implementation
+0/9
+
+Heaps (Theory Video)Core
+
+Heapify AlgorithmCore
+
+Build heap from a given ArrayCore
+
+Implement Min HeapCore
+
+Implement Max HeapCore
+
+Check if an array represents a min heap Core
+
+Convert Min Heap to Max HeapCore
+
+Heap SortPro
+
+K-th Largest element in an arrayPro
+
+FAQs
+0/11
+
+Kth largest element in a stream of running integersPro
+
+Sort K sorted array
+
+Merge K sorted ListsPro
+
+Replace Elements by Their RankCore
+
+Task SchedulerCore
+
+Hand of StraightsCore
+
+Design TwitterCore
+
+Minimum Cost to Connect SticksCore
+
+Maximum Sum CombinationCore
+
+Find Median from Data StreamPro
+
+Top K Frequent ElementsCore
+Contest
+• 3 Problems • 2 hours
+Start contest
+
+Graphs
+0/46
+
+Theory and traversals
+0/3
+
+Introduction to GraphBasic
+
+Traversal TechniquesCore
+
+Connected ComponentsCore
+
+Traversal Problems
+0/8
+
+Number of provincesCore
+
+Number of islandsCore
+
+Flood fill algorithmCore
+
+Number of enclavesCore
+
+Rotten OrangesCore
+
+Distance of nearest cell having oneCore
+
+Surrounded RegionsCore
+
+Number of distinct islandsCore
+
+Cycles
+0/4
+
+Detect a cycle in an undirected graphCore
+
+Bipartite graphCore
+
+Topological sort or Kahn's algorithmCore
+
+Detect a cycle in a directed graphCore
+
+Hard Problems
+0/8
+
+Find eventual safe statesPro
+
+Course Schedule IPro
+
+Course Schedule IIPro
+
+Alien DictionaryPro
+
+Shortest path in DAGCore
+
+Shortest path in undirected graph with unit weightsCore
+
+Word ladder IPro
+
+Word ladder IIPro
+
+Shortest Path Algorithms
+0/12
+
+Dijkstra's algorithmCore
+
+Print Shortest Path Core
+
+Shortest Distance in a Binary MazeCore
+
+Path with minimum effortCore
+
+Cheapest flight within K stopsPro
+
+Minimum multiplications to reach endPro
+
+Number of ways to arrive at destinationPro
+
+Bellman ford algorithmPro
+
+Floyd warshall algorithmPro
+
+Find the city with the smallest number of neighborsPro
+
+Network Delay TimeCore
+
+Swim in Rising WaterPro
+
+Minimum Spanning Tree
+0/3
+
+MST theoryCore
+
+Disjoint Set Core
+
+Find the MST weightCore
+
+Hard Problems II
+0/5
+
+Number of operations to make network connectedCore
+
+Accounts mergeCore
+
+Number of islands IIPro
+
+Making a large islandPro
+
+Most stones removed with same row or columnPro
+
+Additional Algorithms
+0/3
+
+Kosaraju's algorithmPro
+
+Bridges in graphPro
+
+Articulation point in graphPro
+Contest
+• 3 Problems • 2 hours
+Start contest
+
+Dynamic Programming
+0/53
+
+Introduction
+0/1
+
+Introduction to DPBasic
+
+1D DP
+0/5
+
+Climbing stairsCore
+
+Frog JumpCore
+
+Frog jump with K distancesCore
+
+Maximum sum of non adjacent elementsCore
+
+House robberCore
+
+2D DP
+0/1
+
+Ninja's trainingCore
+
+DP on grids
+0/6
+
+Grid unique pathsCore
+
+Unique paths IIPro
+
+Minimum Falling Path SumCore
+
+TriangleCore
+
+Cherry pickup IIPro
+
+Count Square Submatrices with All Ones
+
+DP on stocks
+0/6
+
+Best time to buy and sell stockCore
+
+Best time to buy and sell stock IICore
+
+Best time to buy and sell stock IIIPro
+
+Best time to buy and sell stock IVPro
+
+Best time to buy and sell stock with transaction feesCore
+
+Best Time to Buy and Sell Stock with CooldownCore
+
+DP on subsequences
+0/11
+
+Subset sum equals to targetCore
+
+Partition equal subset sumCore
+
+Partition a set into two subsets with minimum absolute sum differencePro
+
+Count subsets with sum KCore
+
+Count partitions with given differenceCore
+
+0 and 1 KnapsackCore
+
+Minimum coinsCore
+
+Target sumCore
+
+Coin change IIPro
+
+Unbounded knapsackCore
+
+Rod cutting problemPro
+
+LIS
+0/6
+
+Longest Increasing SubsequenceCore
+
+Print Longest Increasing SubsequencePro
+
+Largest Divisible SubsetCore
+
+Longest String ChainCore
+
+Longest Bitonic SubsequenceCore
+
+Number of Longest Increasing SubsequencesCore
+
+DP on strings
+0/11
+
+Longest common subsequenceCore
+
+Longest common substringCore
+
+Longest palindromic subsequenceCore
+
+Minimum insertions to make string palindromePro
+
+Minimum insertions or deletions to convert string A to BCore
+
+Shortest common supersequencePro
+
+Distinct subsequencesPro
+
+Edit distancePro
+
+Wildcard matchingPro
+
+Word BreakCore
+
+Count Palindromic SubsequencesPro
+
+MCM DP
+0/6
+
+Matrix chain multiplicationPro
+
+Burst balloonsPro
+
+Palindrome partitioning II Pro
+
+Partition Array for Maximum SumPro
+
+Minimum cost to cut the stickPro
+
+Different Ways to Evaluate a Boolean ExpressionPro
+Contest
+• 2 Problems • 2 hours
+Start contest
+
+Tries
+0/7
+
+Theory
+0/3
+
+Bit PreRequisites for TRIE Problems
+
+Trie Implementation and OperationsCore
+
+Trie Implementation and Advanced OperationsCore
+
+Problems
+0/4
+
+Longest Word with All PrefixesCore
+
+Number of distinct substrings in a stringPro
+
+Maximum XOR of two numbers in an arrayCore
+
+Maximum Xor with an element from an arrayPro
+
+Strings (Advanced Algo)
+1/9
+
+Medium Problems
+1/3
+
+Reverse every word in a stringCore
+
+Minimum number of bracket reversals to make an expression balancedCore
+
+Count and sayCore
+
+Advanced Problems (Less asked)
+0/6
+
+Hashing In Strings | Theory
+
+Rabin Karp AlgorithmPro
+
+Z functionPro
+
+KMP Algorithm or LPS arrayPro
+
+Shortest PalindromePro
+
+Longest happy prefixPro
+Contest
+• 3 Problems • 2 hours
+Start contest
+
+Maths
+3/3
+
+Sieve of Eratosthenes
+3/3
+
+Print all primes till NCore
+
+Prime factorisation of a NumberCore
+
+Count primes in range L to RPro
