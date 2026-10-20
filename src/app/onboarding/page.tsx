@@ -100,7 +100,7 @@ export default function OnboardingPage() {
   if (!ready) return <div className="panel" role="status" style={{ maxWidth: 720, margin: "40px auto", padding: 28, display: "flex", alignItems: "center", gap: 10 }}><LoaderCircle size={17} className="spin"/>Loading your saved plan…</div>;
 
   return <div className="onboarding-wrap">
-    <div className="onboarding-top"><div><div className="eyebrow">PERSONALISED DSA PREPARATION</div><h1 className="onboarding-title">Build a plan that fits your life.</h1><p className="muted onboarding-subtitle">Organise your roadmap, daily practice, revision, and progress in one focused space.</p></div><div className="local-pill"><span/>Local demo mode</div></div>
+    <div className="onboarding-top"><div><div className="eyebrow">PERSONALISED DSA PREPARATION</div><h1 className="onboarding-title">Build a plan that fits your life.</h1><p className="muted onboarding-subtitle">Organise your roadmap, daily practice, revision, and progress in one focused space.</p></div></div>
     <div className="step-head"><span className="step-count">STEP {step + 1} <span className="muted">/ {STEPS.length}</span></span><span className="step-name">{STEPS[step]}</span></div>
     <div className="onboarding-progress" role="progressbar" aria-label="Onboarding progress" aria-valuemin={0} aria-valuemax={STEPS.length} aria-valuenow={step + 1}><div style={{ width: `${((step + 1) / STEPS.length) * 100}%` }}/></div>
     <div className="step-dots" aria-label={`Step ${step + 1} of ${STEPS.length}`}>{STEPS.map((name, index) => <span key={name} title={name} className={index < step ? "complete" : index === step ? "current" : ""}/>)}</div>
@@ -122,7 +122,7 @@ export default function OnboardingPage() {
       {error && <div role="alert" className="form-error">{error}</div>}
     </section>
     <div className="onboarding-actions"><div className="action-left">{step > 0 && step < 6 && <button type="button" className="button-quiet" onClick={goBack}><ArrowLeft size={15}/> Back</button>}{step === 0 && <button type="button" className="button-quiet" onClick={() => setStep(1)}>Skip welcome <ArrowRight size={14}/></button>}</div><div className="action-right">{step < 6 && <button type="button" className="button-quiet save-button" onClick={saveAndResume}><Save size={14}/> Save & resume</button>}{step < 5 && <button type="button" className="button-primary" onClick={goNext}>Continue <ArrowRight size={15}/></button>}{step === 5 && <button type="button" className="button-primary" onClick={() => { setError(""); setStep(6); }}>Confirm plan <ArrowRight size={15}/></button>}{step === 6 && <button type="button" disabled={finishing} className="button-primary" onClick={finish}>{finishing ? <LoaderCircle size={15} className="spin"/> : <Check size={15}/>} Finish & open dashboard</button>}</div></div>
-    <div className="onboarding-foot"><span className="muted" role="status" aria-live="polite">{status}</span><span className="muted">Local demo account · Saved on this device only</span></div>
+    <div className="onboarding-foot"><span className="muted" role="status" aria-live="polite">{status}</span></div>
   </div>;
 }
 

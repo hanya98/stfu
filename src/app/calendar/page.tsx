@@ -122,6 +122,7 @@ export default function Calendar() {
 
   return <>
     <PageTitle eyebrow="YOUR WEEKLY RHYTHM · LOCAL DEMO" title="Calendar & sprints" description="Calendar events and sprint progress use the same saved planner tasks." action={{ label: "Open daily planner", href: "/planner" }}/>
+      <PageTitle eyebrow="YOUR WEEKLY RHYTHM" title="Calendar & sprints" description="Calendar events and sprint progress use the same saved planner tasks." action={{ label: "Open daily planner", href: "/planner" }}/>
     {error && <div className="planner-alert error" role="alert">{error}</div>}{notice && <div className="planner-alert success" role="status">{notice}</div>}
     <section className="panel calendar-sprint">
       <div className="planner-section-heading"><div><span className="eyebrow">WEEKLY SPRINT · MON–SUN</span><h2>{formatDate(selectedWeek, { month: "short", day: "numeric" })} – {formatDate(dateKey(addLocalDays(atNoon(selectedWeek), 6)), { month: "short", day: "numeric", year: "numeric" })}</h2><p>Targets suggest your onboarding goals and scheduled work. Actuals count completed task records once.</p></div><Target size={18} color="var(--accent)"/></div>
@@ -147,6 +148,7 @@ export default function Calendar() {
       <p className="muted planner-footnote">All dates use your device’s local calendar. Completed and overdue task records remain in their historical dates. Rescheduled tasks update their existing record.</p>
     </section>
     <div style={{ display: "flex", gap: 10, marginTop: 12, flexWrap: "wrap" }}><Link className="button-secondary" href="/planner"><ArrowLeft size={14}/> Daily planner</Link><Link className="button-secondary" href="/revision"><RotateCcw size={14}/> Revision tracker</Link><span className="muted demo-footnote">Saved locally on this device · no account sync configured</span></div>
+    <div style={{ display: "flex", gap: 10, marginTop: 12, flexWrap: "wrap" }}><Link className="button-secondary" href="/planner"><ArrowLeft size={14}/> Daily planner</Link><Link className="button-secondary" href="/revision"><RotateCcw size={14}/> Revision tracker</Link></div>
   </>;
 }
 

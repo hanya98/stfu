@@ -1,3 +1,4 @@
+  <p>{W.length} chapters · {X.length} problem entries · source sheet counters: {Z.solved}/{Z.total}</p>
 import { PageTitle } from "@/components/ui";
 import { RoadmapBrowser } from "@/components/roadmap-browser";
 

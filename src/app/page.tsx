@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowDownRight, ArrowRight, BookOpenCheck, CalendarClock, ChartNoAxesCombined, Check, CirclePlay, Clock3, Layers3, RotateCcw, Sparkles } from "lucide-react";
+import { ArrowDownRight, ArrowRight, BookOpenCheck, CalendarClock, ChartNoAxesCombined, CirclePlay, Clock3, Layers3, RotateCcw, Sparkles } from "lucide-react";
 import { BrandLockup } from "@/components/brand-mark";
 import { brand } from "@/lib/brand";
 
@@ -17,8 +17,7 @@ export default function Home() {
       <div className="landing-copy"><div className="landing-kicker"><span className="status-dot"/> A focused workspace for interview preparation</div>
         <h1>Stack your prep.<br/><span>Make progress visible.</span></h1>
         <p>{brand.description} Organise the roadmap, plan a steady study rhythm, and keep revision moving—one clear next step at a time.</p>
-        <div className="landing-actions"><Link className="button-primary landing-primary" href="/onboarding">Build your study plan <ArrowRight size={16}/></Link><Link className="landing-secondary" href="/dashboard"><CirclePlay size={16}/> Explore the demo</Link></div>
-        <div className="landing-note"><Check size={14}/> Local demo mode · your activity stays in this browser</div>
+        <div className="landing-actions"><Link className="button-primary landing-primary" href="/onboarding">Build your study plan <ArrowRight size={16}/></Link><Link className="landing-secondary" href="/dashboard"><CirclePlay size={16}/> Open workspace</Link></div>
       </div>
       <div className="landing-preview-wrap" aria-label="Illustrative preview of a study plan">
         <div className="landing-orbit landing-orbit-one"/><div className="landing-orbit landing-orbit-two"/>
